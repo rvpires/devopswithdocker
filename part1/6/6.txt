@@ -1,0 +1,11 @@
+docker build . -t docker-clock
+
+docker run -it docker-clock
+
+-h,       	--help           	to show this message
+-a [age], 	--adult [age]    	to check if you're older than 18
+-c [time],	--clock [time]   	to start a clock
+-t [size],	--triangle [size]	to draw a triangle, takes second argument as the size
+
+
+docker run -it docker-clock -c 0

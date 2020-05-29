@@ -1,0 +1,9 @@
+$ docker run -d --name bashex devopsdockeruh/exec_bash_exercise
+$ docker logs -f bashex 
+$ docker exec -it bashex bash
+
+root@03bea3e08321:/usr/app# tail -f ./logs.txt 
+
+Secret message is:
+"Docker is easy"
+
